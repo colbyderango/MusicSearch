@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Itunes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="itunes-service.js"></script>
+    
+
+</head>
+
+<body>
+    <h1 class="text-center header">Colby's Search Tool</h1>
+    
+    <div class="flex-container">
+        <div class="flex-box">
+            <form class="form-inline" onsubmit="itunesCtrl.getMusic(event)">
+<!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+<div class="form-group">
+
+    <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+    <button type="submit" class="btn btn-primary text-center" id="get-music-button">Get Music</button>
+</div>
+</div>
+</div>
+</form>
+<div class="container" id="song-list">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+
+
+
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
