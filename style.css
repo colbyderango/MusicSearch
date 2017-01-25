@@ -1,8 +1,11 @@
 
 
 body{
-    background-image: url("https://www.xmple.com/wallpaper/gradient-purple-blue-linear-1920x1080-c2-9400d3-00ced1-a-345-f-14.svg");
+    background-image: url("https://source.unsplash.com/random");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .flex-container{
@@ -11,9 +14,10 @@ body{
     padding-top: 10%;
     padding-bottom: 10%;
 }
-
+ 
 .well-style{
     color: grey;
     background-color: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTrLAgWASdZ9DNAKoye1peuV0MWrKa_rVk-kW2SgClV5lhOtzG0dw");
     background-size: cover;
+
 }
