@@ -10,12 +10,12 @@ function ItunesController() {
     function drawSongs(songList) {
         console.log(songList);
         // This is where you task begins
-        //    var songLibrary = document.getElementById('song-list')
-
+       document.getElementById('song-list').innerHTML = ''
+        
         for (var i = 0; i < songList.length; i++) {
 
             var item = songList[i];
-
+            if(item.collection){
             document.getElementById('song-list').innerHTML +=
                 `<div class= "container-fluid">
              <div class="row">
@@ -35,7 +35,8 @@ function ItunesController() {
         </div> 
         
         </div>`
-        }
+            }    
+    }
     }
     function onlyPlayOneIn(container) {
         container.addEventListener("play", function (event) {
